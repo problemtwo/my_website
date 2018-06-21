@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+html,body{margin:0;padding:0;overflow:hidden;width:100%;height:100%;}
+.sect{float:left;width:50%;height:100%;}
+#left{background:#27ae60;color:#fff;opacity:.75;}
+#left h1{padding-left:10%;padding-top:2.5%;width:90%;height:5%;display:flex;
+	        justify-content:left;align-items:center;font-family:'Source Sans Pro';
+								 text-decoration:underline;}
+#left h1::-moz-selection{background:#000;}
+#left h1::selection{background:#000;}
+div.menu{padding-left:10%;width:90%;height:5%;display:flex;justify-content:left;align-items:center;
+        font-family:'Source Sans Pro';}
+div.menu::-moz-selection{background:#000;}
+div.menu::selection{background:#000;}
+p.menu-item{float:left;width:0;padding-left:0;height:1%;display:flex;justify-content:left;
+           align-items:center;font-family:'Source Sans Pro';visibility:hidden;}
+p.menu-item::-moz-selection{background:#000;}
+p.menu-item::selection{background:#000;}
+#right{background:#fff;color:#27ae60;}
+p.code{background:rgba(26,26,28,0.99);color:#fff;width:80%;margin-left:10%;font-family:'Ubuntu Mono';}
+span.kwd{color:#66c;}
+span.kwd2{color:#c66;}
+p.code *::-moz-selection{background:rgba(77,77,79,0.99);}
+p.code *::selection{background:rgba(77,77,79,0.99);}
+p.code::-moz-selection{background:rgba(77,77,79,0.99);}
+p.code::selection{background:rgba(77,77,79,0.99);}
+.content{visibility:hidden;}
